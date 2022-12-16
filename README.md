@@ -43,5 +43,5 @@ Grid Layout
 [Чек-лист 3](https://code.s3.yandex.net/web-developer/checklists/new-program/checklist-3/index.html)
 
 ### Ссылка на сайт:
-[сайт russian travel](https://evgeniya089.github.io/russian-travel/)
+[сайт russian travel]()
 
