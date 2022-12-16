@@ -1,0 +1,20 @@
+.place__website {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-self: start;
+  transition: 0.3s ease-in;
+}
+
+.place__website:hover{
+  opacity: 0.5;
+}
+
+@media all and (max-width: 480px) {
+  .place__website {
+    margin: 32px auto 32px;
+    width: calc(100% - 2*16px);
+  }
+}
