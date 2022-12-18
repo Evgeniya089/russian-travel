@@ -10,7 +10,7 @@
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 675px) {
   .lead__image {
     margin-top: 40px;
   }

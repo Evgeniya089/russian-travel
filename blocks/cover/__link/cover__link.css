@@ -17,7 +17,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .cover__link:hover {
   background-image: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/cover-trains.jpg);
 }
@@ -34,7 +33,13 @@
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 495px) {
+  .cover__link {
+    min-height: 340px;
+  }
+}
+
+@media all and (max-width: 380px) {
   .cover__link {
     min-height: 200px;
   }

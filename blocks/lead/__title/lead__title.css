@@ -11,15 +11,38 @@
   text-align: center;
 }
 
-@media screen and (max-width: 675px) {
+/* 768 */
+@media all and (max-width: 800px) {
   .lead__title {
-    font-size: 70px;
+    width: calc(100% - 2*24px);
+  }
+}
+@media all and (max-width: 730px) {
+  .lead__title {
+    font-size: 88px;
+    line-height: 90px;
   }
 }
 
+@media all and (max-width: 675px) {
+  .lead__title {
+    font-size: 75px;
+    line-height: 76px;
+  }
+}  
+
+@media all and (max-width: 558px) {
+  .lead__title {
+    font-size: 64px;
+    line-height: 68px;
+  
+  }
+}
+
+/* 320 */
 @media all and (max-width: 480px) {
   .lead__title {
-    max-width: 288px;
+    width: calc(100% - 2*16px);
     font-size: 40px;
     line-height: 44px;
   }

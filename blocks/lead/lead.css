@@ -10,9 +10,9 @@
     padding-top: 48px;
   }
 }
-
-@media all and (max-width: 768px) {
+/* 768 320 */
+@media all and (max-width: 800px) {
   .lead {
     width: 100%;
   }
-}
+} 

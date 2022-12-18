@@ -13,15 +13,32 @@
   color: #fff;
 }
 
+
+@media all and (max-width: 610px) {
+  .cover__title {
+    font-size: 68px;
+    line-height: 70px;
+  }
+}
+
+@media all and (max-width: 540px) {
+  .cover__title {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}
+
 @media all and (max-width: 480px) {
+  .cover__title {
+    font-size: 38px;
+    line-height: 40px;
+  }
+}
+
+@media all and (max-width: 380px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-  }
-}
-@media all and (max-width: 320px) {
-  .cover__title {
-    margin-top: 33px;
   }
 }

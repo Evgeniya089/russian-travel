@@ -2,26 +2,21 @@
   display: flex;
   margin: 0 auto;
   padding: 28px 0 0;
-  max-width: 1184px;
+  max-width: calc(100% - 2*48px);
   justify-content: space-between;
   box-sizing: border-box;
 }
 
-@media all and (max-width: 1024px) {
-  .header {
-    max-width: 928px;
-  }
-}
-
 @media all and (max-width: 768px) {
   .header {
-    max-width: calc(100% - 48px);
+    max-width: calc(100% - 2*24px);
+
   }
 }
-
+/* 320 */
 @media all and (max-width: 480px) {
   .header {
-    max-width: calc(100% - 32px);
+    max-width: calc(100% - 2*16px);
     padding-top: 16px;
   }
 }

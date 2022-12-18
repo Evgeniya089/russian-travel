@@ -8,7 +8,6 @@
   line-height: 163%;
   text-align: left;
 }
-
 .place__paragraph:last-child {
   margin-bottom: 0;
 }
@@ -23,14 +22,17 @@
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
-    line-height: 163%;
     margin-bottom: 25px;
   }
 }
 
-@media all and (max-width: 480px) {
+/* 320 */
+@media all and (max-width: 630px) {
   .place__paragraph {
     max-width: calc(100% - 2*16px);
     padding-left: 16px;
+  }
+  .place__paragraph:first-child {
+    margin-top: 32px;
   }
 }
